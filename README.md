@@ -6,6 +6,17 @@
 
 OS : Windows
 
+_make_site.bat 24line windows 는 touch 명령어가 없기 때문에 수정
+
+```sh
+touch .\demoCA\index.txt
+```
+
+
+```sh
+type nul > .\demoCA\index.txt
+```
+
 ## 상세
 
 구글링을 통하여 SSL Client, SSL Server 프로그래밍을 익힌다. OpenSSL을 사용하거나 OpenSSL을 wrapping한 라이브러리를 이용해도 된다.
