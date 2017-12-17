@@ -4,6 +4,7 @@ rem --------------------------------------------------------
 rem usage   : _make_site <common name> [<base file name>]
 rem example : _make_site test.com
 rem --------------------------------------------------------
+
 if "%1"=="" goto usage
 set COMMON_NAME=%1
 set BASE_FILE_NAME=%1
