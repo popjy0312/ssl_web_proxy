@@ -21,7 +21,7 @@ copy  root\root.crt demoCA\cacert.pem
 rem --------------------------------------------------------
 rem make other files
 rem --------------------------------------------------------
-touch .\demoCA\index.txt
+type nul > .\demoCA\index.txt
 echo 01 > .\demoCA\serial
 
 rem --------------------------------------------------------
