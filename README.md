@@ -6,7 +6,7 @@
 
 OS : Windows
 
-_make_site.bat 24line windows 는 touch 명령어가 없기 때문에 수정
+_init_site.bat 24line windows 는 touch 명령어가 없기 때문에 수정
 
 ```sh
 touch .\demoCA\index.txt
